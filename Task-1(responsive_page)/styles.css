@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    text-align: center;
+    padding: 8em 1em;
+    background-color: #e6e6e6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 25px;
+    font-size: 1.2em;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4em 1em;
+}
+
+.drawing {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.drawing img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #3388ff, #0066cc);
+    padding: 4em 1em;
+}
+
+.shape {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.square {
+    background-color: #3388ff;
+}
+
+.circle {
+    background-color: #0066cc;
+    border-radius: 50%;
+}
+
+.shape:hover {
+    transform: scale(1.1);
+}
+
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 4em 1em;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.creator {
+    font-size: 1.5em;
+    color: #ffcc00;
+    margin-top: 20px;
+}
